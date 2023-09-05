@@ -9,5 +9,5 @@ c2 = Symbol('c2')
 d1 = Symbol('d1')
 d2 = Symbol('d2')
 
-s = solve([(a1 + b1) * c1 - d1, (a2 + b2) * c2 - d2, (a1 + b2)* c2 - d1, (a2 + b1) * c1 - d2], [b1, c1, a1, d2])
+s = solve([(a1 + b1) * c1 - d1, (a2 + b2) * c2 - d2, (a1 + b2)* c2 - d1, (a2 + b1) * c1 - d2], [b1, c1, a1, a2, d1, d2])
 print(s)
