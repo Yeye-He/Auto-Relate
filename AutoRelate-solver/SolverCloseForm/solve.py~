@@ -1,0 +1,26 @@
+from sympy.solvers import solve
+from sympy import Symbol
+# a + b = c, perburb a (swap a1 and a2)
+
+a1 = Symbol('a1')
+a2 = Symbol('a2')
+b1 = Symbol('b1')
+b2 = Symbol('b2')
+c1 = Symbol('c1')
+c2 = Symbol('c2')
+#s = solve([a1 + b1 - c1, a2 + b1 - c1], [a1, b1])
+s = solve([a1 + b1 - c1, a2 + b2 - c2, a2 + b1 - c1, a1 + b2 - c2], [a1,  b2, b1, c1, c2], dict=True)
+print(s)
+
+# change order
+s = solve([a1 + b1 - c1, a2 + b2 - c2, a2 + b1 - c1, a1 + b2 - c2], [b2, b1, c1, c2, a1], dict=True)
+print(s)
+
+
+# add a2 (this is solving a1/a2/b2, seemingly based on the order in which they appear)
+s = solve([a1 + b1 - c1, a2 + b2 - c2, a2 + b1 - c1, a1 + b2 - c2], [a1, a2, b2, b1, c1, c2], dict=True)
+print(s)
+
+# add a2, change order (why is this solving a1/b1/b2?)
+s = solve([a1 + b1 - c1, a2 + b2 - c2, a2 + b1 - c1, a1 + b2 - c2], [b2, b1, c1, c2, a1, a2], dict=True)
+print(s)

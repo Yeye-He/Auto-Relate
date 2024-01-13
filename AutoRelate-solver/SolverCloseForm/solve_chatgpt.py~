@@ -1,0 +1,12 @@
+from sympy import symbols, Eq, solve
+
+# Define the variables
+a, b, x, c, y = symbols('a b x c y')
+
+# Set up the equation
+equation = Eq(a*x + b*y, c)
+
+# Solve for x in terms of a and c (and possibly b)
+solution = solve(equation, x)
+
+print(solution)
