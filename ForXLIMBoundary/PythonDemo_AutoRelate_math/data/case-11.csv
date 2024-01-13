@@ -1,0 +1,35 @@
+﻿,,SCENARIO ONE,,,SCENARIO TWO,,,SCENARIO THREE,,,SCENARIO FOUR,
+,,>MOU Forward Prices (1),,,>MOU Forward Prices (1),,,>Forward Price Blend (2),,,>Forward Price Blend (2),
+,,>Pro Rata Shares for,,,>Noncore Receives 50% of Core's,,,>Pro Rata Shares for,,,>Noncore Receives 50% of Core's,
+,,   Utility Past Costs,,,  Share of Utility Past Costs,,,   Utility Past Costs,,,  Share of Utility Past Costs,
+,,,,,,,,,,,,
+Core's Cost Structure:,,Cents per kwh:,,,Cents per kwh:,,,Cents per kwh:,,,Cents per kwh:,
+,,PG&E,SCE,,PG&E,SCE,,PG&E,SCE,,PG&E,SCE
+Share of past DWR Costs (3),,0.992060456,0.477440917,,0.992060456,0.477440917,,0.992060456,0.477440917,,0.992060456,0.477440917
+Cost of short position (buys from market),,0,0.645626291,,0,0.645626291,,0,0.513707457,,0,0.513707457
+Value of long position (sales to market),,-0.382398071,0,,-0.382398071,0,,-0.304263849,0,,-0.304263849,0
+Cost of utility generation + QF power,,6.72269957,6.677419023,,6.72269957,6.677419023,,6.72269957,6.677419023,,6.72269957,6.677419023
+Share of Past Utility costs (4),,0.605831479,0.312389592,,0.30291574,0.156194796,,0.605831479,0.312389592,,0.30291574,0.156194796
+,,,,,,,,,,,,
+Total Generation Cost for Core,,7.938193435,8.112875822,,7.635277695,7.956681027,,8.016327656,7.980956989,,7.713411916,7.824762193
+,,,,,,,,,,,,
+Other T&D Costs,,4.8875,5.25,,4.8875,5.25,,4.8875,5.25,,4.8875,5.25
+,,,,,,,,,,,,
+Total Cost to Core in Core/Noncore Structure,,12.82569343,13.36287582,,12.52277769,13.20668103,,12.90382766,13.23095699,,12.60091192,13.07476219
+,,,,,,,,,,,,
+Total Cost to Core under CPUC's Recent Decision,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Noncore's Cost Structure:,,Cents per kwh:,,,Cents per kwh:,,,Cents per kwh:,,,Cents per kwh:,
+,,PG&E,SCE,,PG&E,SCE,,PG&E,SCE,,PG&E,SCE
+Share of past DWR Costs (3),,0.992060456,0.477440917,,0.992060456,0.477440917,,0.992060456,0.477440917,,0.992060456,0.477440917
+Cost of short position (buys from market),,10.4,10.4,,10.4,10.4,,8.275,8.275,,8.275,8.275
+Share of Past Utility Costs (4),,0.605831479,0.312389592,,1.131790162,0.671915489,,0.605831479,0.312389592,,1.131790162,0.671915489
+,,,,,,,,,,,,
+Total Generation Cost for Noncore,,11.99789194,11.18983051,,12.52385062,11.54935641,,9.872891935,9.064830508,,10.39885062,9.424356405
+,,,,,,,,,,,,
+Other T&D Costs,,2.212747117,1.783132079,,2.212747117,1.783132079,,2.212747117,1.783132079,,2.212747117,1.783132079
+,,,,,,,,,,,,
+Total Cost to Noncore in Core/Noncore Structure,,14.21063905,12.97296259,,14.73659773,13.33248848,,12.08563905,10.84796259,,12.61159773,11.20748848
+,,,,,,,,,,,,
+Total Cost to Noncore under CPUC's Recent Decision,,,,,,,,,,,,
